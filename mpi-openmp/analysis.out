@@ -1,0 +1,26 @@
+>>>> MPI+OpenMP Algorithm Time Analysis >>>>
+N = 102779136 ./input.txt -> Encode seconds run = 26
+Decoding completed successfully. Decoded text saved to: plain.txt
+N = 61007504 ./output.bin -> Decode seconds run = 18
+--
+N = 106923456 ./input.txt -> Encode seconds run = 28
+Decoding completed successfully. Decoded text saved to: plain.txt
+N = 63467484 ./output.bin -> Decode seconds run = 18
+--
+N = 111067776 ./input.txt -> Encode seconds run = 29
+Decoding completed successfully. Decoded text saved to: plain.txt
+N = 65804184 ./output.bin -> Decode seconds run = 19
+--
+N = 115212096 ./input.txt -> Encode seconds run = 30
+Decoding completed successfully. Decoded text saved to: plain.txt
+N = 68387444 ./output.bin -> Decode seconds run = 20
+--
+N = 119356416 ./input.txt -> Encode seconds run = 32
+Decoding completed successfully. Decoded text saved to: plain.txt
+N = 67022784 ./output.bin -> Decode seconds run = 19
+--
+N = 123500736 ./input.txt -> Encode seconds run = 32
+Decoding completed successfully. Decoded text saved to: plain.txt
+N = 73307404 ./output.bin -> Decode seconds run = 21
+--
+slurmstepd: error: *** JOB 1763 ON mcs2.wlu.ca CANCELLED AT 2024-04-10T20:34:19 DUE TO TIME LIMIT ***

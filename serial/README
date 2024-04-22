@@ -1,0 +1,12 @@
+#Encode
+g++ -std=c++11 encode_serial.cpp -o encode_serial
+./encode_serial ./input.txt ./output.bin ./huffman_tree.txt
+
+#input.txt // input plain text
+#output.bin // output encode file
+#huffman_tree.txt // output tree file
+
+#Decode
+g++ -std=c++11 decode_serial.cpp -o decode_serial
+./decode_serial ./output.bin ./huffman_tree.txt plain.txt
+

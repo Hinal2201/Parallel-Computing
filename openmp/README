@@ -1,0 +1,25 @@
+#Encode
+# OMP_NUM_THREADS default threads
+g++ -std=c++11 -fopenmp encode_openmp.cpp -o encode_openmp
+./encode_openmp ./input.txt ./output.bin ./huffman_tree.txt
+
+OR 
+
+#Encode
+# for openmp threads (4 thread)
+g++ -std=c++11 -fopenmp encode_openmp.cpp -o encode_openmp
+export OMP_NUM_THREADS=4
+./encode_openmp ./input.txt ./output.bin ./huffman_tree.txt
+
+OR 
+
+#Encode
+# for openmp threads (4 thread)
+g++ -std=c++11 -fopenmp -DOMP_NUM_THREADS=4 encode_openmp.cpp -o encode_openmp
+./encode_openmp ./input.txt ./output.bin ./huffman_tree.txt
+
+#Decode
+# OMP_NUM_THREADS default threads
+g++ -std=c++11 -fopenmp decode_openmp.cpp -o decode_openmp
+./decode_openmp ./output.bin ./huffman_tree.txt plain.txt
+

@@ -1,0 +1,32 @@
+>>>> OpenMP Algorithm Time Analysis >>>>
+Compression completed successfully.
+N = 90346176 ./input.txt -> Encode seconds run = 27
+Decoding completed successfully. Decoded text saved to: plain.txt
+N = 52356624 ./output.bin -> Decode seconds run = 15
+--
+Compression completed successfully.
+N = 94490496 ./input.txt -> Encode seconds run = 28
+Decoding completed successfully. Decoded text saved to: plain.txt
+N = 56087544 ./output.bin -> Decode seconds run = 16
+--
+Compression completed successfully.
+N = 98634816 ./input.txt -> Encode seconds run = 29
+Decoding completed successfully. Decoded text saved to: plain.txt
+N = 57141420 ./output.bin -> Decode seconds run = 17
+--
+Compression completed successfully.
+N = 102779136 ./input.txt -> Encode seconds run = 31
+Decoding completed successfully. Decoded text saved to: plain.txt
+N = 61007504 ./output.bin -> Decode seconds run = 17
+--
+Compression completed successfully.
+N = 106923456 ./input.txt -> Encode seconds run = 31
+Decoding completed successfully. Decoded text saved to: plain.txt
+N = 58455060 ./output.bin -> Decode seconds run = 17
+--
+Compression completed successfully.
+N = 111067776 ./input.txt -> Encode seconds run = 33
+Decoding completed successfully. Decoded text saved to: plain.txt
+N = 65927464 ./output.bin -> Decode seconds run = 19
+--
+slurmstepd: error: *** JOB 1765 ON mcs2.wlu.ca CANCELLED AT 2024-04-10T20:53:19 DUE TO TIME LIMIT ***

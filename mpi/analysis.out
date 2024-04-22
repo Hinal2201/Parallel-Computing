@@ -1,0 +1,29 @@
+>>>> MPI Algorithm Time Analysis >>>>
+N = 86201856 ./input.txt -> Encode seconds run = 27
+N = 51167584 ./output.bin -> Decode seconds run = 2
+--
+N = 90346176 ./input.txt -> Encode seconds run = 28
+N = 53627564 ./output.bin -> Decode seconds run = 2
+--
+N = 94490496 ./input.txt -> Encode seconds run = 30
+N = 56087544 ./output.bin -> Decode seconds run = 1
+--
+N = 98634816 ./input.txt -> Encode seconds run = 31
+N = 58547524 ./output.bin -> Decode seconds run = 1
+--
+N = 102779136 ./input.txt -> Encode seconds run = 32
+N = 61007504 ./output.bin -> Decode seconds run = 1
+--
+N = 106923456 ./input.txt -> Encode seconds run = 34
+N = 63467484 ./output.bin -> Decode seconds run = 1
+--
+N = 111067776 ./input.txt -> Encode seconds run = 35
+N = 65927464 ./output.bin -> Decode seconds run = 2
+--
+N = 115212096 ./input.txt -> Encode seconds run = 36
+N = 68387444 ./output.bin -> Decode seconds run = 2
+--
+N = 119356416 ./input.txt -> Encode seconds run = 37
+N = 70847424 ./output.bin -> Decode seconds run = 2
+--
+slurmstepd: error: *** JOB 1769 ON mcs2.wlu.ca CANCELLED AT 2024-04-14T06:27:27 DUE TO TIME LIMIT ***

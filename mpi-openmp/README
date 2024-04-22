@@ -1,0 +1,36 @@
+#Encode
+// OMP_NUM_THREADS default threads
+mpic++ -fopenmp -std=c++11 encode_mpi_openmp.cpp -o encode_mpi_openmp
+mpirun -np 40 ./encode_mpi_openmp ./input.txt huffman_tree.txt output.bin 
+
+#input.txt // input plain text
+#output.bin // output encode file
+#huffman_tree.txt // output tree file
+
+OR 
+
+#Encode
+# for openmp threads (4 thread)
+mpic++ -fopenmp -std=c++11 encode_mpi_openmp.cpp -o encode_mpi_openmp
+export OMP_NUM_THREADS=4
+mpirun -np 40 ./encode_mpi_openmp ./input.txt huffman_tree.txt output.bin 
+
+#input.txt // input plain text
+#output.bin // output encode file
+#huffman_tree.txt // output tree file
+
+OR
+
+#Encode
+# for openmp threads (4 thread)
+mpic++ -fopenmp -DOMP_NUM_THREADS=4 -std=c++11 encode_mpi_openmp.cpp -o encode_mpi_openmp 
+mpirun -np 40 ./encode_mpi_openmp ./input.txt huffman_tree.txt output.bin 
+
+#input.txt // input plain text
+#output.bin // output encode file
+#huffman_tree.txt // output tree file
+ 
+#Decode
+// OMP_NUM_THREADS default threads
+mpic++ -fopenmp -std=c++11 decode_mpi_openmp.cpp -o decode_mpi_openmp
+mpirun -np 40 ./decode_mpi_openmp ./output.bin ./huffman_tree.txt plain.txt
